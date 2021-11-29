@@ -228,6 +228,7 @@ label {
 .detailCancleBtn {
   left: -18px;
   background-color: #d2caf8;
+  color: #6b51df;
 }
 .detailForwardBtn {
   right: -18px;
@@ -310,6 +311,7 @@ label {
 .vehicleDetailModalCancle {
   right: -18px;
   background: #d2caf8;
+  color: #6b51df !important;
 }
 .vehicleDetailModalConfirm h1,
 .vehicleDetailModalCancle h1 {
@@ -321,3 +323,132 @@ label {
 /* vehicle detail modal end  */
 
 /* --------------------------------------------------------------------- */
+
+/* view vehicle listing start  */
+.breadcomTitleWrapView {
+  width: 572px;
+  height: 60px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.maintainance {
+  width: 205px;
+  height: 60px;
+  transform: skewX(-30deg);
+  border-radius: 5px;
+  background: #d2caf8;
+  color: #6b51df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+  position: absolute;
+  left: 172px;
+}
+.salesFloor {
+  width: 205px;
+  height: 60px;
+  transform: skewX(-30deg);
+  border-radius: 5px;
+  background: #d2caf8;
+  color: #6b51df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+  position: absolute;
+  right: -18px;
+}
+.salesFloor h1,
+.maintainance h1 {
+  transform: skewX(30deg);
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+}
+.newEntrySectionSearch {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  /* overflow: hidden; */
+  margin-top: 48px;
+  margin-bottom: 30px;
+}
+.newEntrySearch {
+  position: absolute;
+  right: 0;
+  width: 152px;
+  height: 42px;
+  background: #fff6f8;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+#newEntrySearch {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding-left: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(45, 43, 43, 0.5);
+}
+.fa-search {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: rgba(45, 43, 43, 0.5);
+}
+/* view vehicle listing end  */
+
+/* ---------------------------------------------------- */
+
+/* view vehicle detail start  */
+.submitBtnWrapView {
+  width: 570px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+}
+.detailSendToSalesFloorBtn,
+.detailSendToMaintainanceBtn {
+  position: absolute;
+  width: 297px;
+  height: 60px;
+  border-radius: 5px;
+  transform: skewX(-30deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.detailSendToSalesFloorBtn {
+  left: -18px;
+  background-color: #d2caf8;
+  color: #6b51df;
+}
+.detailSendToMaintainanceBtn {
+  right: -18px;
+  background-color: #6b51df;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+.detailSendToSalesFloorBtn h1,
+.detailSendToMaintainanceBtn h1 {
+  transform: skewX(30deg);
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+}
+/* view vehicle detail end  */

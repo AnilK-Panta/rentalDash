@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase User</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="bodyWrapper">
+        <div class="breadcumNav1">
+            <div class="breadcomTitleWrap">
+                <div class="vehicleDetails">
+                    <h1>Vehicle Details</h1>
+                </div>
+            </div>
+
+        </div>
+        <div class="vehicleDetailDisplay">
+            <div class="vehicleDetailBrand">
+                <label for="vehicleBrand">Brand</label>
+                <div class="vehicleBrand">Hyundai</div>
+            </div>
+            <div class="vehicleDetailModel"><label for="vehicleBrand">Model</label>
+                <div class="vehicleBrand">i20</div>
+            </div>
+            <div class="vehicleDetailManufactureyear"><label for="vehicleBrand">Manufacture Year</label>
+                <div class="vehicleBrand">2019</div>
+            </div>
+            <div class="vehicleDetailEngineType"><label for="vehicleBrand">Engine Type</label>
+                <div class="vehicleBrand">Diesel</div>
+            </div>
+            <div class="vehicleDetailVehicleNumber"><label for="vehicleBrand">Vehicle Number</label>
+                <div class="vehicleBrand">Ba 1 Kha 2022</div>
+            </div>
+        </div>
+        <div class="submitBtnFooter">
+            <div class="submitBtnWrapView">
+                <div class="detailSendToSalesFloorBtn">
+                    <h1>Send to Sales Floor</h1>
+                </div>
+                <div class="detailSendToMaintainanceBtn" onclick="forwardVehicleDetail()">
+                    <h1>Send to Maintainance</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="vehicleDetailModal" id="vehicleDetailModal">
+        <div class="vehicleDetailModalMain">
+            <div class="vehicleDetailModalIcon"><i class="fas fa-check-circle"></i></div>
+            <div class="vehicleDetailModalConfirmTitle">Confirm Your Details</div>
+            <div class="vehicleDetailModalBtns">
+                <div class="vehicleDetailModalConfirm">
+                    <h1>Confirm</h1>
+                </div>
+                <div class="vehicleDetailModalCancle">
+                    <h1>Cancle</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function forwardVehicleDetail() {
+            document.getElementById("vehicleDetailModal").style.display = "flex"
+        }
+    </script>
+
+</body>
+
+</html>
