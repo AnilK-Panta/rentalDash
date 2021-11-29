@@ -223,6 +223,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .detailCancleBtn {
   left: -18px;
@@ -257,6 +258,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .vehicleDetailModalMain {
   padding: 78px 162px;
@@ -297,6 +299,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .vehicleDetailModalConfirm {
   left: -18px;

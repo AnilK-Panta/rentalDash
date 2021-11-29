@@ -45,14 +45,14 @@
                 <div class="detailCancleBtn">
                     <h1>Cancle</h1>
                 </div>
-                <div class="detailForwardBtn">
+                <div class="detailForwardBtn" onclick="forwardVehicleDetail()">
                     <h1>Forward</h1>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="vehicleDetailModal">
+    <div class="vehicleDetailModal" id="vehicleDetailModal">
         <div class="vehicleDetailModalMain">
             <div class="vehicleDetailModalIcon"><i class="fas fa-check-circle"></i></div>
             <div class="vehicleDetailModalConfirmTitle">Confirm Your Details</div>
@@ -66,6 +66,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function forwardVehicleDetail() {
+            document.getElementById("vehicleDetailModal").style.display = "flex"
+        }
+    </script>
 
 </body>
 
