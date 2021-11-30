@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase User</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="bodyWrapper">
+        <div class="breadcumNav">
+            <div class="breadcomTitleWrapView">
+                <div class="new activeNav">
+                    <h1>Sales Floor</h1>
+                </div>
+                <div class="maintainance ">
+                    <h1>Booking</h1>
+                </div>
+                <div class="salesFloor">
+                    <h1>Sold</h1>
+                </div>
+            </div>
+
+        </div>
+        <table style="width: 100%; margin-top: 80px;">
+            <tr>
+                <th>S.N</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Engine</th>
+                <th>Vehicle Number</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hyundai</td>
+                <td>i20</td>
+                <td>2019</td>
+                <td>Petrol</td>
+                <td>Ba 1 Kha 2023</td>
+                <td><i class="fas fa-eye"></i>
+                    <i class="far fa-edit" onclick="updateForm()"></i>
+                    <i class="far fa-trash-alt"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hyundai</td>
+                <td>i20</td>
+                <td>2019</td>
+                <td>Petrol</td>
+                <td>Ba 1 Kha 2023</td>
+                <td><i class="fas fa-eye"></i>
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hyundai</td>
+                <td>i20</td>
+                <td>2019</td>
+                <td>Petrol</td>
+                <td>Ba 1 Kha 2023</td>
+                <td><i class="fas fa-eye"></i>
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Hyundai</td>
+                <td>i20</td>
+                <td>2019</td>
+                <td>Petrol</td>
+                <td>Ba 1 Kha 2023</td>
+                <td><i class="fas fa-eye"></i>
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="updateSalesUserFormWrap" id="updateSalesUserFormWrap">
+        <div class="updateSalesUserFormMain">
+            <div class="sendVehicleForMaintainanceModalNav">
+                <div class="sendVehicleForMaintainanceNavTitle">
+                    <h1>Vehicle Details</h1>
+                </div>
+
+            </div>
+            <div class="vehicleDetailDisplayWrapUpdate">
+                <div class="vehicleDetailBrand">
+                    <label for="vehicleBrand">Brand</label>
+                    <div class="vehicleBrand">Hyundai</div>
+                </div>
+                <div class="vehicleDetailModel"><label for="vehicleBrand">Model</label>
+                    <div class="vehicleBrand">i20</div>
+                </div>
+                <div class="vehicleDetailManufactureyear"><label for="vehicleBrand">Manufacture Year</label>
+                    <div class="vehicleBrand">2019</div>
+                </div>
+                <div class="vehicleDetailEngineType"><label for="vehicleBrand">Engine Type</label>
+                    <div class="vehicleBrand">Diesel</div>
+                </div>
+                <div class="vehicleDetailVehicleNumber"><label for="vehicleBrand">Vehicle Number</label>
+                    <div class="vehicleBrand">Ba 1 Kha 2022</div>
+                </div>
+            </div>
+            <div class="sendVehicleForMaintainanceModalNav salesInformationModalnav">
+                <div class="sendVehicleForMaintainanceNavTitle">
+                    <h1>Sales Information</h1>
+                </div>
+
+            </div>
+            <div class="salesInformationInputFieldUpdate">
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Amount</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Purchased by</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Contact Number</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Email</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+            </div>
+            <div class="sendVehicleForMaintainanceModalBtn">
+                <div class="sendVehicleForMaintainanceModalBtnSend">
+                    <h1>Update</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function updateForm() {
+            document.getElementById("updateSalesUserFormWrap").style.display = "flex"
+        }
+    </script>
+</body>
+
+</html>
