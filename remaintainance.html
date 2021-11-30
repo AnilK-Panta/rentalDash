@@ -23,7 +23,7 @@
 
         </div>
         <div class="newEntrySection">
-            <div class="newEntryBtn">
+            <div class="newEntryBtn" onclick="returnVehicleDetail()">
                 <h1>Return</h1>
             </div>
         </div>
@@ -107,14 +107,11 @@
                 <div class="sendVehicleForMaintainanceModalBtnSend">
                     <h1>Send</h1>
                 </div>
-                <!-- <div class="vehicleDetailModalCancle">
-                    <h1>Cancle</h1>
-                </div> -->
             </div>
         </div>
     </div>
     <script>
-        function forwardVehicleDetail() {
+        function returnVehicleDetail() {
             document.getElementById("sendVehicleForMaintainanceModal").style.display = "flex"
         }
     </script>
