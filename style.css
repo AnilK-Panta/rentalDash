@@ -126,7 +126,8 @@ td:last-child {
   gap: 15px;
   height: 72px;
 }
-.fa-eye {
+.fa-eye,
+.fa-tools {
   color: #85d369;
   font-size: 24px !important;
   cursor: pointer;
@@ -175,7 +176,7 @@ td:last-child {
   color: #ffffff;
 }
 .vehicleDetailDisplay {
-  width: 100%;
+  /* width: 100%; */
   padding: 80px;
   background: #fff6f8;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
@@ -585,3 +586,93 @@ label {
   color: #ffffff;
 }
 /* view vehicle detail end  */
+
+/* --------------------------------------------------- */
+
+/* remaintainance start  */
+.vehicleDisplay-maintainanceHistry-Wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.vehicleDetailDisplayMaintainance {
+  padding: 40px;
+  background: #fff6f8;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.vehicleMaintainanceHistry {
+  width: 404px;
+  height: 400px;
+  background: #fff6f8;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.vehicleMaintainanceHistry {
+  padding: 32px 8px;
+}
+
+.maintainanceHistrySubNav {
+  width: 100%;
+  height: 45px;
+  background: #e8e4fa;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.maintainanceHistrySubNavTitle {
+  width: 295px;
+  height: 45px;
+  background: #6b51df;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  transform: skewX(-30deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: -18px;
+}
+.maintainanceHistrySubNavTitle h1 {
+  transform: skewX(30deg);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+.maintainanceHistoryTable {
+  margin-top: 20px;
+  width: 100%;
+  /* height: 100px;
+  background-color: #6b51df; */
+}
+.maintainanceHistoryTable table {
+  width: 100%;
+}
+.maintainanceHistoryTable tr {
+  height: 40px !important;
+}
+.maintainanceHistoryTable th {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #d2caf8;
+}
+.maintainanceHistoryTable td {
+  font-size: 14px;
+  height: 40px !important;
+}
+.maintainanceHistoryTable i {
+  font-size: 14px !important;
+}
+.maintainanceHistoryTable td:last-child {
+  gap: 8px;
+}
+/* remaintainance end  */
