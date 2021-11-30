@@ -52,23 +52,39 @@
         </div>
 
     </div>
-    <div class="vehicleDetailModal" id="vehicleDetailModal">
-        <div class="vehicleDetailModalMain">
-            <div class="vehicleDetailModalIcon"><i class="fas fa-check-circle"></i></div>
-            <div class="vehicleDetailModalConfirmTitle">Confirm Your Details</div>
-            <div class="vehicleDetailModalBtns">
-                <div class="vehicleDetailModalConfirm">
-                    <h1>Confirm</h1>
+    <div class="sendVehicleForMaintainanceModal" id="sendVehicleForMaintainanceModal">
+        <div class="sendVehicleForMaintainanceModalMain">
+            <div class="sendVehicleForMaintainanceModalNav">
+                <div class="sendVehicleForMaintainanceNavTitle">
+                    <h1>Send Vehicle to Maintenance</h1>
                 </div>
-                <div class="vehicleDetailModalCancle">
+            </div>
+            <div class="sendVehicleForMaintainanceModalFields">
+                <div class="sendVehicleForMaintainanceModalBrand">
+                    <span>Brand:</span>
+                    <div class="sendVehicleForMaintainanceModalBrandName">Hyundai</div>
+                </div>
+                <div class="sendVehicleForMaintainanceModalReason">
+                    <span>Reason:</span>
+                    <div class="sendVehicleForMaintainanceModalReasonField">
+                        <textarea name="" id="sendVehicleForMaintainanceModalReasonField" cols="30"
+                            rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="sendVehicleForMaintainanceModalBtn">
+                <div class="sendVehicleForMaintainanceModalBtnSend">
+                    <h1>Send</h1>
+                </div>
+                <!-- <div class="vehicleDetailModalCancle">
                     <h1>Cancle</h1>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     <script>
         function forwardVehicleDetail() {
-            document.getElementById("vehicleDetailModal").style.display = "flex"
+            document.getElementById("sendVehicleForMaintainanceModal").style.display = "flex"
         }
     </script>
 
