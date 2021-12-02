@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .vehicleBrand {
+            outline: none;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="updateSalesUserFormWrap" id="updateSalesUserFormWrap">
+        <div class="updateSalesUserFormMain">
+            <div class="sendVehicleForMaintainanceModalNav">
+                <div class="sendVehicleForMaintainanceNavTitle" style="width: 295px;">
+                    <h1>Vehicle Details</h1>
+                </div>
+
+            </div>
+            <div class="vehicleDetailDisplayWrapUpdate">
+                <div class="vehicleDetailBrand">
+                    <label for="vehicleBrand">Brand</label>
+                    <select name="cars" id="vehicleBrand" class="vehicleBrand">
+                        <option value="hyundai">Hyundai</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <!-- <div class="vehicleBrand">Hyundai</div> -->
+                </div>
+                <div class="vehicleDetailModel"><label for="vehicleBrand">Model</label>
+                    <div class="vehicleBrand">i20</div>
+                </div>
+                <div class="vehicleDetailManufactureyear"><label for="vehicleBrand">Manufacture Year</label>
+                    <div class="vehicleBrand">2019</div>
+                </div>
+                <div class="vehicleDetailEngineType"><label for="vehicleBrand">Engine Type</label>
+                    <select name="cars" id="vehicleBrand" class="vehicleBrand">
+                        <option value="diesel">Diesel</option>
+                        <option value="petrol">Petrol</option>
+                        <option value="electric">Electric</option>
+                        <option value="hybid">Hybrid</option>
+                    </select>
+                    <!-- <div class="vehicleBrand">Diesel</div> -->
+                </div>
+                <div class="vehicleDetailVehicleNumber"><label for="vehicleBrand">Vehicle Number</label>
+                    <div class="vehicleBrand">Ba 1 Kha 2022</div>
+                </div>
+            </div>
+            <div class="sendVehicleForMaintainanceModalNav salesInformationModalnav">
+                <div class="sendVehicleForMaintainanceNavTitle" style="width: 295px;">
+                    <h1>Seller Info</h1>
+                </div>
+
+            </div>
+            <div class="salesInformationInputFieldUpdate">
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Seller Name</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Contact</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Email</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+                <div class="vehicleDetailBrand salesInformationInputFieldUpdatedata">
+                    <label for="vehicleBrand">Address</label>
+                    <input type="text" id="vehicleBrand">
+                </div>
+            </div>
+            <div class="sendVehicleForMaintainanceModalBtn" style="display: flex; justify-content: end;">
+                <!-- <div class="sendVehicleForMaintainanceModalBtnSend">
+                    <h1>Update</h1>
+                </div> -->
+                <div class="submitBtnWrapView" style="width: 275px;">
+                    <div class="detailSendToSalesFloorBtn" style="width: 150px">
+                        <h1>Cancle</h1>
+                    </div>
+                    <div class="detailSendToMaintainanceBtn" style="width: 150px" onclick="forwardVehicleDetail()">
+                        <h1>Save</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
